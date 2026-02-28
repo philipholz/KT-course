@@ -57,16 +57,13 @@ coverage.xml
 .env
 .env.local
 
-# Submissions: version template/task/questions; students commit answers.* in their fork
+# Submissions: version template/task/questions; answers.* ignoriert (nicht committen)
 **/submissions/*
 !**/submissions/template.md
 !**/submissions/task.md
 !**/submissions/questions.md
 !**/submissions/questions.txt
 !**/submissions/questions.docx
-!**/submissions/answers.md
-!**/submissions/answers.txt
-!**/submissions/answers.docx
 
 # Instructor key (nicht ins Studenten-Repo exportieren)
 .instructor_key
