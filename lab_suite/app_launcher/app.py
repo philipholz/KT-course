@@ -29,6 +29,7 @@ def _launch_app(entry: LabEntry) -> None:
     """Startet NiceGUI-App als Subprocess (python -m labs.xxx). Bei Studierenden: App lädt Code aus submissions/."""
     env = os.environ.copy()
     if not _is_instructor_mode():
+        submission_copy.run_force_refresh_if_requested(entry.folder_name)
         submission_copy.ensure_app_submission_files(entry.folder_name)
         submission_copy.ensure_sidedata_copy(entry.folder_name)
         env["USE_SUBMISSIONS"] = "1"
@@ -51,6 +52,7 @@ def _launch_script(entry: LabEntry) -> None:
     if _is_instructor_mode():
         to_run = LAB_SUITE_ROOT / entry.run_target
     else:
+        submission_copy.run_force_refresh_if_requested(entry.folder_name)
         submission_copy.ensure_all_task_script_copies(entry.folder_name)
         submission_copy.ensure_sidedata_copy(entry.folder_name)
         path = submission_copy.ensure_submission_copy(entry.folder_name, script_name)
@@ -104,6 +106,7 @@ def _open_script_in_editor(entry: LabEntry) -> None:
     if _is_instructor_mode():
         script_path = LAB_SUITE_ROOT / entry.run_target
     else:
+        submission_copy.run_force_refresh_if_requested(entry.folder_name)
         submission_copy.ensure_all_task_script_copies(entry.folder_name)
         submission_copy.ensure_sidedata_copy(entry.folder_name)
         script_path = submission_copy.ensure_submission_copy(entry.folder_name, script_name)
@@ -133,6 +136,7 @@ def _open_app_user_template(entry: LabEntry) -> None:
     if _is_instructor_mode():
         template_path = _get_app_user_template_path(entry.folder_name)
     else:
+        submission_copy.run_force_refresh_if_requested(entry.folder_name)
         submission_copy.ensure_app_submission_files(entry.folder_name)
         submission_copy.ensure_sidedata_copy(entry.folder_name)
         template_path = LABS_DIR / entry.folder_name / "submissions" / "user_template.py"
