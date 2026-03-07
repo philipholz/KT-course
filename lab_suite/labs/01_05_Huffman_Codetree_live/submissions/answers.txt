@@ -1,0 +1,5 @@
+Hat die NiceGUI App funktioniert? Im Falle nein, welche Probleme traten auf?
+
+die GUI mit dem Live Tree schon
+
+Aber der Editor funktioniert nicht, beim ersten Mal hat er gefragt, mit was ich es öffnen will. Nach Auswahl von Python (statt CS Code vermutlich) kommt beim Klicken auf "EDIT" immer nur "Editor: user_template.py", aber nichts öffnet sich.
