@@ -1,0 +1,82 @@
+Analyze the file:  C:\Users\holzi\Desktop\FH\4. Semester\KT\Git\KT-course\lab_suite\labs\01_02_Informationstheorie\sampletext.txt
+
+-----File Contents:---------------------------------------------------
+Der Mars Telecommunications Orbiter sollte als erste Marssonde Ã¼ber keine wissenschaftlichen Instrumente zur Erforschung des Mars verfÃ¼gen, sondern nur zur Kommunikation zwischen dem Mars und der Erde dienen. Er wurde von der NASA oft als der erste â€žHubâ€œ des interplanetaren Internets bezeichnet. Mit Hilfe des MTO sollte die Menge der zur Erde Ã¼bertragenen Daten drastisch erhÃ¶ht werden, so wÃ¼rde z. B. das Mars Science Laboratory durch den MTO 100 Mal so viele Daten Ã¼bermitteln kÃ¶nnen wie ohne ihn. AuÃŸerdem sollte die VerfÃ¼gbarkeit des Mars Telecommunications Orbiters die zukÃ¼nftigen Raumsonden von der Notwendigkeit befreien, direkt mit der Erde kommunizieren zu mÃ¼ssen. Dadurch wÃ¤ren die Kommunikationsanlagen der Sonden kleiner und leichter, was dem Gewichtsanteil der wissenschaftlichen Nutzlast zugutekommen wÃ¼rde.
+
+
+
+Als erste Raumsonde sollte der Mars Telecommunications Orbiter die MÃ¶glichkeit der Kommunikation per Laser auf planetaren Entfernungen testen. Bei dem Mars Laser Communication Demonstration Project sollten Geschwindigkeiten von 10 MBit pro Sekunde demonstriert werden, als Ziel wurden sogar 30 Mbit pro Sekunde gesetzt.
+
+
+
+AuÃŸerdem sollte der MTO eine kleine Kugel von der GrÃ¶ÃŸe eines FuÃŸballs in den Marsorbit freisetzen, um sie bis zu einer Entfernung von 6.000 km zu verfolgen. Die Daten dieses Experimentes sollten spÃ¤ter fÃ¼r die RÃ¼ckfÃ¼hrung von Marsproben zur Erde nÃ¼tzlich sein, da bei solch einer Mission die Kapsel mit den Proben im Orbit gefunden und abgefangen werden muss, um sie zur Erde zurÃ¼ckzubringen.
+Number of characters: 1568
+Character Dictionary: {'D': 7, 'e': 201, 'r': 107, ' ': 221, 'M': 20, 'a': 54, 's': 82, 'T': 6, 'l': 44, 'c': 28, 'o': 55, 'm': 38, 'u': 49, 'n': 123, 'i': 88, 't': 75, 'O': 7, 'b': 21, 'd': 65, 'Ã': 24, '¼': 14, 'k': 20, 'w': 16, 'h': 21, 'f': 18, 'I': 2, 'z': 20, 'E': 10, 'g': 22, 'v': 9, ',': 8, 'K': 5, '.': 12, 'N': 3, 'A': 5, 'S': 5, 'â': 2, '€': 2, 'ž': 1, 'H': 2, 'œ': 1, 'p': 9, '¶': 4, 'B': 3, 'L': 3, 'y': 1, '1': 2, '0': 7, 'Ÿ': 4, 'V': 1, 'R': 3, '¤': 2, 'G': 3, '\n': 4, 'C': 1, 'P': 2, 'j': 1, 'Z': 1, '3': 1, 'F': 1, '6': 1, 'x': 1}
+
+-------Table of characters:----------------
+       | cnt=221    p=0.141   H=2.827 bit/char  H_av=0.398 bit/char
+ e     | cnt=201    p=0.128   H=2.964 bit/char  H_av=0.380 bit/char
+ n     | cnt=123    p=0.078   H=3.672 bit/char  H_av=0.288 bit/char
+ r     | cnt=107    p=0.068   H=3.873 bit/char  H_av=0.264 bit/char
+ i     | cnt= 88    p=0.056   H=4.155 bit/char  H_av=0.233 bit/char
+ s     | cnt= 82    p=0.052   H=4.257 bit/char  H_av=0.223 bit/char
+ t     | cnt= 75    p=0.048   H=4.386 bit/char  H_av=0.210 bit/char
+ d     | cnt= 65    p=0.041   H=4.592 bit/char  H_av=0.190 bit/char
+ o     | cnt= 55    p=0.035   H=4.833 bit/char  H_av=0.170 bit/char
+ a     | cnt= 54    p=0.034   H=4.860 bit/char  H_av=0.167 bit/char
+ u     | cnt= 49    p=0.031   H=5.000 bit/char  H_av=0.156 bit/char
+ l     | cnt= 44    p=0.028   H=5.155 bit/char  H_av=0.145 bit/char
+ m     | cnt= 38    p=0.024   H=5.367 bit/char  H_av=0.130 bit/char
+ c     | cnt= 28    p=0.018   H=5.807 bit/char  H_av=0.104 bit/char
+ Ã     | cnt= 24    p=0.015   H=6.030 bit/char  H_av=0.092 bit/char
+ g     | cnt= 22    p=0.014   H=6.155 bit/char  H_av=0.086 bit/char
+ b     | cnt= 21    p=0.013   H=6.222 bit/char  H_av=0.083 bit/char
+ h     | cnt= 21    p=0.013   H=6.222 bit/char  H_av=0.083 bit/char
+ M     | cnt= 20    p=0.013   H=6.293 bit/char  H_av=0.080 bit/char
+ k     | cnt= 20    p=0.013   H=6.293 bit/char  H_av=0.080 bit/char
+ z     | cnt= 20    p=0.013   H=6.293 bit/char  H_av=0.080 bit/char
+ f     | cnt= 18    p=0.011   H=6.445 bit/char  H_av=0.074 bit/char
+ w     | cnt= 16    p=0.010   H=6.615 bit/char  H_av=0.067 bit/char
+ ¼     | cnt= 14    p=0.009   H=6.807 bit/char  H_av=0.061 bit/char
+ .     | cnt= 12    p=0.008   H=7.030 bit/char  H_av=0.054 bit/char
+ E     | cnt= 10    p=0.006   H=7.293 bit/char  H_av=0.047 bit/char
+ v     | cnt=  9    p=0.006   H=7.445 bit/char  H_av=0.043 bit/char
+ p     | cnt=  9    p=0.006   H=7.445 bit/char  H_av=0.043 bit/char
+ ,     | cnt=  8    p=0.005   H=7.615 bit/char  H_av=0.039 bit/char
+ D     | cnt=  7    p=0.004   H=7.807 bit/char  H_av=0.035 bit/char
+ O     | cnt=  7    p=0.004   H=7.807 bit/char  H_av=0.035 bit/char
+ 0     | cnt=  7    p=0.004   H=7.807 bit/char  H_av=0.035 bit/char
+ T     | cnt=  6    p=0.004   H=8.030 bit/char  H_av=0.031 bit/char
+ K     | cnt=  5    p=0.003   H=8.293 bit/char  H_av=0.026 bit/char
+ A     | cnt=  5    p=0.003   H=8.293 bit/char  H_av=0.026 bit/char
+ S     | cnt=  5    p=0.003   H=8.293 bit/char  H_av=0.026 bit/char
+ ¶     | cnt=  4    p=0.003   H=8.615 bit/char  H_av=0.022 bit/char
+ Ÿ     | cnt=  4    p=0.003   H=8.615 bit/char  H_av=0.022 bit/char
+ b'\n' | cnt=  4    p=0.003   H=8.615 bit/char  H_av=0.022 bit/char
+ N     | cnt=  3    p=0.002   H=9.030 bit/char  H_av=0.017 bit/char
+ B     | cnt=  3    p=0.002   H=9.030 bit/char  H_av=0.017 bit/char
+ L     | cnt=  3    p=0.002   H=9.030 bit/char  H_av=0.017 bit/char
+ R     | cnt=  3    p=0.002   H=9.030 bit/char  H_av=0.017 bit/char
+ G     | cnt=  3    p=0.002   H=9.030 bit/char  H_av=0.017 bit/char
+ I     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ â     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ €     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ H     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ 1     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ ¤     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ P     | cnt=  2    p=0.001   H=9.615 bit/char  H_av=0.012 bit/char
+ ž     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ œ     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ y     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ V     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ C     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ j     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ Z     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ 3     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ F     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ 6     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+ x     | cnt=  1    p=0.001   H=10.615 bit/char  H_av=0.007 bit/char
+-------------------------------------------
+
+Average Entropy H = 4.599 bit/char
+Total Entropy of 1568 characters H=7210.48 bit = 902.00 byte
